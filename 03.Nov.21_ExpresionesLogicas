@@ -1,0 +1,19 @@
+// Daniela Guarneros Ortiz 
+// 03.Noviembre.2021
+// Evalua las siguientes expresiones lógixas
+
+#include <stdio.h>
+
+main()
+{
+	int a=4, b=3, c=4, x=1, y=1, z=1;
+	int ah, bh, ch, dh;
+	
+	ah = (a>b) || (b==c);
+	bh = (a!=b) && (a!=b) || (x==z);
+	ch = ((a>=b) || (x>=z)) && ((x!=b) && (y==z));
+	dh = (!(a>b)) || (x!=b);
+	
+	printf(" %d \n %d \n %d \n %d", ah, bh, ch, dh);
+	
+}
