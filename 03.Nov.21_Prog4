@@ -1,0 +1,19 @@
+// Daniela Guarneros Ortiz
+// 03.Noviembre.2021
+// Programa que le un caracter en minusculas y lo escribe en mayusculas
+
+#include <stdio.h>
+main()
+{
+	char minuscula, mayuscula;
+	// Lectura de datos: minuscula
+	printf ("Introduce un caracter en minuscula: ");
+	scanf ("%c", &minuscula);
+	
+	// Proceso: transformación a mayuscula
+	mayuscula=minuscula-32;
+	
+	// Salida
+	printf ("El caracter %c en mayuscula es %c\n", minuscula, mayuscula);
+	
+}
